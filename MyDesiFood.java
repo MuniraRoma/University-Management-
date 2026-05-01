@@ -16,6 +16,7 @@ public class MyDesiFood {
         public static final String MENU_FOOTER = "0. Nothing / Go Back\n==========================";
     }
 
+    // SINGLETON PATTERN - Each enum constant is a singleton instance
     enum DesiDish {
         HALEEM("Haleem", 120),
         ROGAN_GOSHT("Rogan Gosht", 250),
@@ -36,6 +37,7 @@ public class MyDesiFood {
             this.price = price;
         }
 
+        // FACTORY PATTERN - Creates/returns appropriate singleton instance
         static DesiDish fromChoice(int choice) {
             if (choice < 1 || choice > values().length) return null;
             return values()[choice - 1];
@@ -70,6 +72,7 @@ public class MyDesiFood {
             int choice = readInt("Enter Your Choice (0 to finish): ");
             if (choice == 0) break;
 
+            // FACTORY PATTERN call
             DesiDish selected = DesiDish.fromChoice(choice);
             if (selected == null) {
                 System.out.println("Invalid choice!");
@@ -120,9 +123,6 @@ public class MyDesiFood {
         }
     }
 
-    // ==========================
-    // FILE SERVICE
-    // ==========================
     private static class BillFileService {
         static void saveOrders(List<OrderedDish> orders) {
             try {
