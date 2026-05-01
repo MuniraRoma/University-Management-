@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-This project demonstrates **Code Refactoring Techniques** to eliminate code smells and improve code quality across multiple modules including **Transport Management**, **Course Registration**, and **Cafe Billing System**. Each refactoring technique is applied to create cleaner, more maintainable, and readable code.
+This project demonstrates **Code Refactoring Techniques** to eliminate code smells and improve code quality across multiple modules including **Transport Management**, **Course Registration**,  **Library Management** and **Cafe Billing System**. Each refactoring technique is applied to create cleaner, more maintainable, and readable code.
 
 ---
 
