@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-This project demonstrates **20+ Design Patterns** across multiple modules including **Transport Management**, **Course Registration**, and **Cafe Billing System**. Each pattern is strategically applied to create maintainable, extensible, and testable code.
+This project demonstrates **many Design Patterns** across multiple modules including **Transport Management**, **Course Registration**, and **Cafe Billing System**. Each pattern is strategically applied to create maintainable, extensible, and testable code.
 
 ---
 
